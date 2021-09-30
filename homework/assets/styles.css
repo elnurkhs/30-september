@@ -1,0 +1,286 @@
+/* intro section start */
+#intro{
+    background-image: url(./images/sea-clouds-nature-dark-wallpaper.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#intro .container .cover-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: whitesmoke;
+}
+#intro .container .cover-text .logo i{
+    font-size: 100px;
+    padding-bottom: 40px;
+}
+#intro .container .cover-text .title h1{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#intro .container .cover-text .text{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#intro .container .cover-text .text p{
+    text-align: center;
+    font-weight: 200;
+}
+button{
+    color: honeydew;
+    border-color: honeydew;
+    border-radius: 5px;
+    padding: 15px 50px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    box-shadow: inset;
+    background-color: rgba(124, 124, 124, 0)
+}
+
+/* intro section end */
+/* about section start */
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about .measure{
+    padding: 100px 0px;
+}
+#about .text h2{
+    color: gray;
+    font-size: 45px;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+#about .text p{
+    color: gray;
+    font-size: 20px;
+    font-weight: 200;
+}
+#about .my-img img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+/* about section end */
+/* icons section start */
+
+#icons-section{
+    display: flex;
+    background-image: url(./images/sea-clouds-nature-dark-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#icons-section .icons{
+    display: inline;
+    font-size: 120px;
+    text-align: center;
+}
+#icons-section .icons ul li{
+    display: inline;
+    color: whitesmoke;
+}
+#icons-section .icons .first-row{
+    padding-top: 120px;
+}
+#icons-section .icons .second-row{
+    padding-top: 30px;
+}
+#icons-section .icons .third-row{
+    padding-top: 30px;
+}
+#icons-section .text-title h2{
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+#icons-section .text-title .text{
+    padding-top: 50px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    #intro .container .cover-text .logo i{
+        font-size: 60px;
+    }
+    #intro .container .cover-text .title h1{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    #intro .container .cover-text .text{
+        font-size: 15px;
+    }
+    #intro .container .cover-text .text p{
+        text-align: center;
+        font-weight: 100;
+    }
+    button{
+        padding: 10px 40px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+    #about{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #about .measure{
+        padding: 100px 0px;
+    }
+    #about .text h2{
+        color: gray;
+        font-size:30px;
+        font-weight: 100;
+    }
+    #about .text p{
+        color: gray;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    #about .my-img img{
+        width: 100%;
+        height: 100%;
+    }
+    #icons-section .icons{
+        font-size: 80px;
+    }
+    #icons-section .text-title h2{
+        font-size: 30px;
+    }
+    #icons-section .text-title .text p{
+        font-size: 15px;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: calc(100/12*4);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #intro .container .cover-text .logo i{
+        font-size: 30px;
+    }
+    #intro .container .cover-text .title h1{
+        font-size: 15px;
+        font-weight: 200;
+    }
+    #intro .container .cover-text .text{
+        font-size: 13px;
+    }
+    #intro .container .cover-text .text p{
+        text-align: center;
+        font-weight: 50;
+    }
+    button{
+        padding: 5px 20px;
+        font-size: 10px;
+        letter-spacing: 5px;
+    }
+    #about .text h2{
+        font-size:23px;
+        font-weight: 50;
+    }
+    #about .text p{
+        color: gray;
+        font-size: 12px;
+        font-weight: 100;
+    }
+    #icons-section .icons{
+        font-size: 100px;
+    }
+    #icons-section .text-title h2{
+        font-size: 25px;
+    }
+    #icons-section .text-title .text p{
+        font-size: 15px;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-4{
+        width: calc(100/12*4);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    #intro .container .cover-text .logo i{
+        font-size: 20px;
+    }
+    #intro .container .cover-text .title h1{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    #intro .container .cover-text .text{
+        font-size: 10px;
+    }
+    #intro .container .cover-text .text p{
+        text-align: center;
+        font-weight: 30;
+    }
+    button{
+        padding: 2px 10px;
+        font-size: 5px;
+        letter-spacing: 5px;
+        border-radius: 0px;
+    }
+    #about .text h2{
+        font-size:15px;
+        font-weight: 50;
+    }
+    #about .text p{
+        color: gray;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    #about .my-img img{
+        padding-top: 20px;
+    }
+    #icons-section .icons{
+        font-size: 60px;
+    }
+    #icons-section .text-title h2{
+        font-size: 15px;
+    }
+    #icons-section .text-title .text p{
+        font-size: 10px;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-4{
+        width: calc(100/12*4);
+    }
+}
+
+
+
+
